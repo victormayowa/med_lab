@@ -1,3 +1,5 @@
+"use server"
+
 import { createInvestigation, getAllInvestigations } from "@/lib/controllers/investigationController";
 import { NextApiRequest, NextApiResponse } from "next";
 

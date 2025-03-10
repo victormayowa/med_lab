@@ -13,7 +13,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model DiagnosticTest {
+model diagnosticTest {
   id          String   @id @default(uuid())
   patientName String
   investigationType    String

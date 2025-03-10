@@ -5,6 +5,7 @@ import {
   deleteInvestigation,
 } from "@/lib/controllers/investigationController";
 
+console.log("Hello from lab-test-manager/pages/api/investigations/%5Bid%5D.ts");
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
