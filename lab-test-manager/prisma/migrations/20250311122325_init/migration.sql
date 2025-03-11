@@ -1,12 +1,3 @@
-/*
-  Warnings:
-
-  - You are about to drop the `DiagnosticTest` table. If the table is not empty, all the data it contains will be lost.
-
-*/
--- DropTable
-DROP TABLE "DiagnosticTest";
-
 -- CreateTable
 CREATE TABLE "diagnosticTest" (
     "id" TEXT NOT NULL,
